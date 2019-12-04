@@ -20,5 +20,6 @@ This project shows how to create an AWS NAT Instance and connect to the internet
       <img src = "./InitialStateOfYourIGW.JPG"/>
       
      * Click on Actions and attach your Internet Gateway to the VPC you earlier created
+       to change the state to attached
       <img src = "./Attach_YourIGW_To_VPC.JPG"/>
      
