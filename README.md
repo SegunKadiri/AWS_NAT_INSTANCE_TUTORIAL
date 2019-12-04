@@ -12,3 +12,13 @@ This project shows how to create an AWS NAT Instance and connect to the internet
      
     * One Private Subnet
      <img src = "./CreatePrivateSubnet.JPG"/>
+    
+## STEP 3 
+  * Create an Internet Gateway through which your public subnet will access the internet
+     <img src = "./CREATE_InternetGateway.JPG"/>
+     * On creation of the Internet Gateway, you will see it detached like this:
+      <img src = "./InitialStateOfYourIGW.JPG"/>
+      
+     * Click on Actions and attach your Internet Gateway to the VPC you earlier created
+      <img src = "./Attach_YourIGW_To_VPC.JPG"/>
+     
